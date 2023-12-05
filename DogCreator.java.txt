@@ -38,3 +38,13 @@ class Dog {
         this.furColor = furColor;
         this.isServiceDog = isServiceDog;
     }
+
+    public void bark() {
+        if (this.breed.equals("Labrador")) {
+            System.out.println("Woof!");
+        } else if (this.breed.equals("Dachshund")) {
+            System.out.println("Arf!");
+        } else {
+            System.out.println("Bark!");
+        }
+    }
