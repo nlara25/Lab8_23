@@ -68,3 +68,8 @@ class Dog {
     public void setServiceDog(boolean isServiceDog) {
         this.isServiceDog = isServiceDog;
     }
+
+    public String getInfo() {
+        return "Name: " + name + ", Breed: " + breed + ", Age: " + age + ", Fur Color: " + furColor + ", Service Dog: " + isServiceDog;
+    }
+}
