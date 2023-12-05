@@ -1,2 +1,11 @@
 public class DogCreator {
     public static void main(String[] args) {
+	Dog dog1 = new Dog();
+        Dog dog2 = new Dog("Max", "Husky", 5, "White", true);
+        Dog dog3 = new Dog();
+
+        dog3.setName("Shorty");
+        dog3.setBreed("Dachshund");
+        dog3.setAge(7);
+        dog3.setFurColor("Black");
+        dog3.setServiceDog(true);
