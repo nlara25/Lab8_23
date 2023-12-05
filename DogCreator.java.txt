@@ -23,3 +23,8 @@ public class DogCreator {
         dog3.bark();
     }
 }
+
+class Dog {
+    private String name = "Unknown", breed = "Unknown", furColor = "Unknown";
+    private int age = 0;
+    private boolean isServiceDog = false;
