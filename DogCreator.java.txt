@@ -9,3 +9,17 @@ public class DogCreator {
         dog3.setAge(7);
         dog3.setFurColor("Black");
         dog3.setServiceDog(true);
+
+        System.out.println("Dog 1:");
+        System.out.println(dog1.getInfo());
+        dog1.bark();
+
+        System.out.println("\nDog 2:");
+        System.out.println(dog2.getInfo());
+        dog2.bark();
+
+        System.out.println("\nDog 3:");
+        System.out.println(dog3.getInfo());
+        dog3.bark();
+    }
+}
