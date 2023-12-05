@@ -28,3 +28,13 @@ class Dog {
     private String name = "Unknown", breed = "Unknown", furColor = "Unknown";
     private int age = 0;
     private boolean isServiceDog = false;
+
+    public Dog() {}
+
+    public Dog(String name, String breed, int age, String furColor, boolean isServiceDog) {
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+        this.furColor = furColor;
+        this.isServiceDog = isServiceDog;
+    }
